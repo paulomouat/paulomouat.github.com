@@ -5,6 +5,7 @@ body {
 }
 
 a {
+    font-weight: bold;
 	color: #908b87;
 	text-decoration: none;
 }
@@ -44,7 +45,7 @@ p {
 
 .heading2 {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: normal;
     color: #908b87;
 }
 
