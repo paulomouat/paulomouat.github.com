@@ -18,6 +18,15 @@ p {
     line-height: 1.4;
 }
 
+ul {
+    list-style-type: none;
+    padding-left: 1.2em;
+}
+
+li {
+    margin-top: .5em;
+}
+
 #page {
     position: absolute;
     left: 50%;
@@ -49,4 +58,15 @@ p {
 
 .footer {
     font-size: small;	
+}
+
+.callout {
+    background-color: #eee;
+    color: #564b47;
+    border-radius: 6px;
+    padding: 0.25em 1em 1em 1em;
+}
+
+.callout > p, ul {
+    font-size: smaller;
 }
